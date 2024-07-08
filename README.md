@@ -31,6 +31,11 @@ This project is a clone of the popular messaging application Telegram, developed
 * Google Fonts: Used for typography to enhance the visual appearance of text elements.
 * Font Awesome: Provides scalable vector icons that can be easily customized with CSS.
 
+## Future Enhancement
+
+* Light Mode Support: Implement light mode theme for users preferring brighter interfaces.
+* Responsive Design: Enhance responsiveness across various devices and screen sizes for optimal user experience.
+* Additional Functionality: Explore adding more interactive features such as message editing, media sharing, and notifications.
 # Installation
 
 To run this project locally, follow these steps:
