@@ -1,0 +1,79 @@
+.chat-list{
+    height: 100vh;
+    width: 420px;
+    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+}
+.chat-container{
+ height: 700px;
+ overflow-y: scroll;
+ scrollbar-width: thin; /* For Firefox */
+}
+.chat-container::-webkit-scrollbar {
+    width: 2px; 
+    background-color: #212121; 
+}
+
+.chat-container::-webkit-scrollbar-thumb {
+    background-color: #212121; 
+    border-radius: 5px; 
+}
+.chat-container::-webkit-scrollbar-thumb:hover{
+    background-color: #707579;
+}
+
+.chat-container::-webkit-scrollbar-track {
+    background-color: #212121  ; 
+}
+
+@supports (scrollbar-color: #212121 #212121){
+    *{
+        scrollbar-color: #212121 #212121 ;
+        scrollbar-width: thin;
+        
+    }
+    *:hover{
+      scrollbar-color: #707579 #212121;  
+    }
+   
+}
+/* HEADER... */
+
+.chatlist-header{
+    height: 56px;
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-right: 1px solid #000000;
+}
+.chatlist-searchbar{
+    height: 42px;
+    width: 80%;
+    padding: 0px 10px;
+    background-color: #181818;
+    border-radius: 2rem;
+    border: 1px solid #2f2f2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+.chatlist-searchbar:hover{
+    border: 0.5px solid #AAAAAA;
+}
+.chatlist-searchbar-icon{
+    color: dimgrey;
+}
+.chatlist-searchbar input{
+    width: 90%;
+    height: 38px;
+    background-color: #181818;
+    border: none;
+    border-radius: 1rem;
+    font-size: 16px;
+    outline: none;
+    color: #AAAAAA;
+}
